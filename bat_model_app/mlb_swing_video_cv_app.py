@@ -11,7 +11,7 @@ import numpy as np
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 
 def process_video(input_path, output_path):
-    model = YOLO('/Bat_Tracking_Model/bat_model_weights/bat_tracking.pt') 
+    model = YOLO('/bat_model_weights/bat_tracking.pt') 
     
     tracker = sv.ByteTrack()
     box_annotator = sv.BoundingBoxAnnotator()
