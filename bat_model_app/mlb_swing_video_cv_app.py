@@ -1,9 +1,9 @@
 import streamlit as st
-import cv2
 import tempfile
 import os
 import base64
 from ultralytics import YOLO
+import cv2
 import supervision as sv 
 import numpy as np
 
