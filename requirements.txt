@@ -1,0 +1,4 @@
+streamlit==1.13.0
+opencv-python-headless==4.5.5.64 
+numpy==1.21.2
+ultralytics[yolov5]==6.1 
